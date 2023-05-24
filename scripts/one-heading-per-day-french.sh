@@ -8,7 +8,7 @@ URL='things:///json?data=[{"type":"project","attributes":{"title":"Calendar","it
 for i in {0..6}
 do
   # Calculate the date for day i
-  day=$(date -v +${i}d '+%A %d %B')
+  day=$(date -v +${i}d '+%A %d %B %Y')
 
   # Add a new heading to the URL
   URL+='{"type":"heading","attributes":{"title":"'
