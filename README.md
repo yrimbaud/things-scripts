@@ -20,10 +20,10 @@ This repository contains scripts for MacOS that automate actions on the Things a
     - Navigate into the cloned repository with `cd things-scripts`
 
 2. **Make the script executable**
-    - In Terminal, while inside the repository's directory, run `chmod +x script.sh` (replace script.sh by one-heading-per-day-french.sh for example)
+    - In Terminal, while inside the repository's directory, run `chmod +x script.sh` (replace `script.sh` by `one-heading-per-day-french.sh` for example)
 
 3. **Run the script**
-    - Still in Terminal, run the script with `./script.sh` (replace script.sh by one-heading-per-day-french.sh for example)
+    - Still in Terminal, run the script with `./script.sh` (replace `script.sh` by `one-heading-per-day-french.sh` for example)
 
 After running the script, you should see the results in the Things app.
 
@@ -39,7 +39,7 @@ If you continue to encounter issues, feel free to open an issue on this GitHub r
 
 ## Author
 
-This project was created by [Yann Rimbaud](https://github.com/yrimbaud/).
+This project was created by Yann Rimbaud ([@yrimbaud](https://github.com/yrimbaud/)).
 
 ## License
 
