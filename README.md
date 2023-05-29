@@ -3,8 +3,8 @@ This repository contains scripts for MacOS that automate actions on the Things a
 
 ## List of Scripts
 
-1. **one-heading-per-day-english.sh** - This script automates the creation of headings in the Things app, with each heading corresponding to one of the next 365 days (formatted in English)
-2. **one-heading-per-day-french.sh** - This script automates the creation of headings in the Things app, with each heading corresponding to one of the next 365 days (formatted in French)
+1. **one-heading-per-day-[language].sh** - This script automates the creation of one heading per day for the next 365 days (formatted in English or French)
+2. **one-heading-per-month-[language].sh** - This script automates the creation of one heading per month for the next 12 months (formatted in English or French)
 
 ## Prerequisites
 
@@ -20,10 +20,10 @@ This repository contains scripts for MacOS that automate actions on the Things a
     - Navigate into the cloned repository with `cd things-scripts`
 
 2. **Make the script executable**
-    - In Terminal, while inside the repository's directory, run `chmod +x script.sh` (replace `script.sh` by `one-heading-per-day-french.sh` for example)
+    - In Terminal, while inside the repository's directory, run `chmod +x script.sh` (replace `script.sh` by the script you want to execute)
 
 3. **Run the script**
-    - Still in Terminal, run the script with `./script.sh` (replace `script.sh` by `one-heading-per-day-french.sh` for example)
+    - Still in Terminal, run the script with `./script.sh`
 
 After running the script, you should see the results in the Things app.
 
@@ -43,4 +43,4 @@ This project was created by Yann Rimbaud ([@yrimbaud](https://github.com/yrimbau
 
 ## License
 
-This project is licensed under the MIT License. This means you are free to use, modify, and distribute this software, as long as you include the original copyright and license notice in any copy of the software/source.
+You are free to use, modify, and distribute this script, without the need to include the original copyright.
