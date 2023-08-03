@@ -5,6 +5,7 @@ This repository contains scripts for MacOS that automate actions on the Things a
 
 1. **one-heading-per-day-[language].sh** - This script automates the creation of one heading per day for the next 365 days (formatted in English or French)
 2. **one-heading-per-month-[language].sh** - This script automates the creation of one heading per month for the next 12 months (formatted in English or French)
+3. **one-task-per-day-[language].sh** - This script automates the creation of one task per day for the next 31 days (formatted in English or French)
 
 ## Prerequisites
 
